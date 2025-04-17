@@ -72,7 +72,7 @@
    ORDER BY total_penjualan_tertinggi DESC
    LIMIT 10;
 
-<img src="https://github.com/zareee12/sql-rental-dvd/blob/main/image/hasil%207.png" alt="Jumlah Film per Genre" width="450"/>
+<img src="https://github.com/zareee12/sql-rental-dvd/blob/main/image/hasil%207.png" alt="Jumlah Film per Genre" width="550"/>
 
 
    
