@@ -7,7 +7,8 @@
    SELECT genre, COUNT(*) AS jumlah_film
    FROM film
    GROUP BY genre;
-<img src="https://github.com/zareee12/sql-rental-dvd/blob/main/image/hasil%201.png" alt="Jumlah Film per Genre" width="200"/>
+
+<img src="https://github.com/zareee12/sql-rental-dvd/blob/main/image/hasil%201.png" alt="Jumlah Film per Genre" width="300"/>
 
 2. **Tampilkan semua judul film yang huruf depannya "D**
    ```sql
