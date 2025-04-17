@@ -25,7 +25,7 @@
    FROM film
    WHERE release_year BETWEEN 2005 AND 2010;
 
-<img src="https://github.com/zareee12/sql-rental-dvd/blob/main/image/hasil%203.png" alt="Jumlah Film per Genre" width="250"/>
+<img src="https://github.com/zareee12/sql-rental-dvd/blob/main/image/hasil%203.png" alt="Jumlah Film per Genre" width="450"/>
 
 4. **Tampilkan list data customer**
    ```sql
