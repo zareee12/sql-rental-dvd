@@ -2,6 +2,43 @@
 
 ## 📘  SQL - Dna Studio
 
+# 📀 DVD RENTAL SQL PROJECT
+
+Selamat datang di proyek eksplorasi SQL menggunakan data DVD Rental!  
+Proyek ini merupakan simulasi dari sistem penyewaan DVD seperti yang digunakan di toko-toko rental film, dan bertujuan sebagai portofolio SQL yang dapat digunakan untuk keperluan analisis data.
+
+---
+
+## 🧠 Background Story
+
+data ini berisi perusahaan rental DVD film di seluruh dunia. Untuk meningkatkan kualitas layanan dan memahami perilaku pelanggan, mereka membangun sistem basis data untuk merekam seluruh proses bisnis: dari penyimpanan film, peminjaman, pembayaran, hingga laporan pelanggan terbaik.  
+
+Sebagai seorang data analyst atau SQL developer, kamu dihadapkan dengan kebutuhan untuk mengekstrak informasi penting dari database ini guna membantu pengambilan keputusan.
+
+---
+
+## 🎯 Objective
+
+Tujuan dari proyek ini:
+- Memahami dan membaca struktur relasi antar tabel dalam database relasional.
+- Membuat query SQL untuk menjawab kebutuhan bisnis nyata.
+- Menyajikan data dengan rapi dan logis.
+- Menjadikan proyek ini sebagai bagian dari portofolio yang siap dipamerkan ke recruiter atau client.
+
+---
+
+## 🗂️ ER Diagram (Entity Relationship Diagram)
+
+![DVD Rental ER Diagram](https://github.com/zareee12/sql-rental-dvd/blob/main/image/diagram%20dvd-rental.jpeg)
+
+Diagram di atas menjelaskan bagaimana tabel-tabel saling berelasi. Beberapa relasi penting antara lain:
+- Setiap **film** bisa memiliki banyak **kategori** (via tabel `film_category`).
+- Setiap **customer** dapat melakukan banyak **rental** dan pembayaran (`payment`).
+- Film disimpan di berbagai **store**, dikelola oleh **staff**.
+- Struktur alamat terdiri dari `address`, `city`, dan `country`.
+
+---
+
 1. **Tampilkan jumlah film per genre**
    ```sql
    SELECT genre, COUNT(*) AS jumlah_film
