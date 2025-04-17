@@ -33,7 +33,7 @@
        address, phone, city, country
    FROM customer;
 
-<img src="https://github.com/zareee12/sql-rental-dvd/blob/main/image/hasil%204.png" alt="Jumlah Film per Genre" width="250"/>
+<img src="https://github.com/zareee12/sql-rental-dvd/blob/main/image/hasil%204.png" alt="Jumlah Film per Genre" width="450"/>
 
 5. **Tampilkan jumlah transaksi rental dan total pembayaran (amount) untuk semua customer**
    ```sql
@@ -41,7 +41,7 @@
    FROM payment
    GROUP BY customer_id;
 
-<img src="https://github.com/zareee12/sql-rental-dvd/blob/main/image/hasil%205.png" alt="Jumlah Film per Genre" width="250"/>
+<img src="https://github.com/zareee12/sql-rental-dvd/blob/main/image/hasil%205.png" alt="Jumlah Film per Genre" width="450"/>
    
 6. **Tampilkan status pengembalian film dan total jumlah film**
    ```sql
@@ -55,7 +55,7 @@
    FROM rental
    GROUP BY status_pengembalian;
 
-<img src="https://github.com/zareee12/sql-rental-dvd/blob/main/image/hasil%206.png" alt="Jumlah Film per Genre" width="250"/>
+<img src="https://github.com/zareee12/sql-rental-dvd/blob/main/image/hasil%206.png" alt="Jumlah Film per Genre" width="450"/>
 
 7. **Tampilkan 10 pelanggan dengan total penjualan tertinggi, beserta informasi detail pelanggan**
    ```sql
