@@ -23,7 +23,6 @@ Tujuan dari proyek ini:
 - Memahami dan membaca struktur relasi antar tabel dalam database relasional.
 - Membuat query SQL untuk menjawab kebutuhan bisnis nyata.
 - Menyajikan data dengan rapi dan logis.
-- Menjadikan proyek ini sebagai bagian dari portofolio yang siap dipamerkan ke recruiter atau client.
 
 ---
 
