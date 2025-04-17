@@ -33,7 +33,7 @@
        address, phone, city, country
    FROM customer;
 
-<img src="https://github.com/zareee12/sql-rental-dvd/blob/main/image/hasil%204.png" alt="Jumlah Film per Genre" width="450"/>
+<img src="https://github.com/zareee12/sql-rental-dvd/blob/main/image/hasil%204.png" alt="Jumlah Film per Genre" width="550"/>
 
 5. **Tampilkan jumlah transaksi rental dan total pembayaran (amount) untuk semua customer**
    ```sql
