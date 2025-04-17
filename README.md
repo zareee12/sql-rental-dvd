@@ -55,7 +55,7 @@
    FROM rental
    GROUP BY status_pengembalian;
 
-<img src="https://github.com/zareee12/sql-rental-dvd/blob/main/image/hasil%206.png" alt="Jumlah Film per Genre" width="400"/>
+<img src="https://github.com/zareee12/sql-rental-dvd/blob/main/image/hasil%206.png" alt="Jumlah Film per Genre" width="300"/>
 
 7. **Tampilkan 10 pelanggan dengan total penjualan tertinggi, beserta informasi detail pelanggan**
    ```sql
