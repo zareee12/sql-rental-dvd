@@ -16,7 +16,7 @@
    FROM film
    WHERE title LIKE 'D%';
 
-<img src="https://github.com/zareee12/sql-rental-dvd/blob/main/image/hasil%202.png" alt="Jumlah Film per Genre" width="250"/>
+<img src="https://github.com/zareee12/sql-rental-dvd/blob/main/image/hasil%202.png" alt="Jumlah Film per Genre" width="450"/>
    
 3. **Tampilkan judul film dan kategori film yang rilis antara tahun 2005 s/d 2010**
    ```sql
