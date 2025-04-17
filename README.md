@@ -4,8 +4,7 @@
 
 # 📀 DVD RENTAL SQL PROJECT
 
-Selamat datang di proyek eksplorasi SQL menggunakan data DVD Rental!  
-Proyek ini merupakan simulasi dari sistem penyewaan DVD seperti yang digunakan di toko-toko rental film, dan bertujuan sebagai portofolio SQL yang dapat digunakan untuk keperluan analisis data.
+Proyek ini merupakan simulasi dari sistem penyewaan DVD seperti yang digunakan di toko-toko rental film di seluruh dunia, dan bertujuan sebagai portofolio SQL yang dapat digunakan untuk keperluan analisis data.
 
 ---
 
