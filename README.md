@@ -7,14 +7,16 @@
    SELECT genre, COUNT(*) AS jumlah_film
    FROM film
    GROUP BY genre;
-`
-      <img src="https://github.com/zareee12/sql-rental-dvd/blob/main/image/hasil%201.png" alt="Jumlah Film per Genre" width="250"/>
+
+<img src="https://github.com/zareee12/sql-rental-dvd/blob/main/image/hasil%201.png" alt="Jumlah Film per Genre" width="250"/>
 
 2. **Tampilkan semua judul film yang huruf depannya "D**
    ```sql
    SELECT title
    FROM film
    WHERE title LIKE 'D%';
+
+<img src="https://github.com/zareee12/sql-rental-dvd/blob/main/image/hasil%202.png" alt="Jumlah Film per Genre" width="250"/>
    
 3. **Tampilkan judul film dan kategori film yang rilis antara tahun 2005 s/d 2010**
    ```sql
@@ -22,18 +24,24 @@
    , category
    FROM film
    WHERE release_year BETWEEN 2005 AND 2010;
-   
+
+<img src="https://github.com/zareee12/sql-rental-dvd/blob/main/image/hasil%203.png" alt="Jumlah Film per Genre" width="250"/>
+
 4. **Tampilkan list data customer**
    ```sql
    SELECT customer_id, CONCAT(first_name, ' ', last_name) AS fullname,
        address, phone, city, country
    FROM customer;
 
+<img src="https://github.com/zareee12/sql-rental-dvd/blob/main/image/hasil%204.png" alt="Jumlah Film per Genre" width="250"/>
+
 5. **Tampilkan jumlah transaksi rental dan total pembayaran (amount) untuk semua customer**
    ```sql
    SELECT customer_id, COUNT(rental_id) AS jumlah_transaksi, SUM(amount) AS total_payment
    FROM payment
    GROUP BY customer_id;
+
+<img src="https://github.com/zareee12/sql-rental-dvd/blob/main/image/hasil%205.png" alt="Jumlah Film per Genre" width="250"/>
    
 6. **Tampilkan status pengembalian film dan total jumlah film**
    ```sql
@@ -46,6 +54,8 @@
     COUNT(*) AS total_film
    FROM rental
    GROUP BY status_pengembalian;
+
+<img src="https://github.com/zareee12/sql-rental-dvd/blob/main/image/hasil%206.png" alt="Jumlah Film per Genre" width="250"/>
 
 7. **Tampilkan 10 pelanggan dengan total penjualan tertinggi, beserta informasi detail pelanggan**
    ```sql
@@ -61,6 +71,8 @@
    GROUP BY c.customer_id
    ORDER BY total_penjualan_tertinggi DESC
    LIMIT 10;
+
+<img src="https://github.com/zareee12/sql-rental-dvd/blob/main/image/hasil%207.png" alt="Jumlah Film per Genre" width="250"/>
 
 
    
